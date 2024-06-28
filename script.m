@@ -1,8 +1,8 @@
 let
     // Parâmetros (substituir)
     token = "your_token",
-    quizid = 12345,
-    courseid = 1234,
+    quizid = id_quiz,
+    courseid = id_course,
 
     // Função para fazer a chamada à API do Moodle
     call_moodle_api = (wsfunction as text, optional params as record) =>
